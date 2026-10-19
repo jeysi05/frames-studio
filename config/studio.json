@@ -1,0 +1,58 @@
+{
+  "_comment": "SAMPLE VALUES — owner must confirm every field before launch.",
+  "name": "FRAMES",
+  "tagline": "Self-Portrait Studio",
+  "address": {
+    "street": "215 Salcedo Street",
+    "area": "Legazpi Village",
+    "city": "Makati City",
+    "country": "PH",
+    "coordinates": { "lat": 14.5535, "lng": 121.0184 },
+    "mapsUrl": "https://maps.google.com/?q=215+Salcedo+Legazpi+Village+Makati"
+  },
+  "hours": { "open": "11:00", "close": "20:00", "display": "11:00 — 20:00 DAILY" },
+  "contact": {
+    "phone": "+63 917 555 0142",
+    "email": "studio@frames.ph",
+    "instagram": "@frames.photostudio",
+    "instagramUrl": "https://instagram.com/"
+  },
+  "pricing": {
+    "currency": "PHP",
+    "singleSuite": { "offPeak": 2500, "peak": 3000, "includedGuests": 5, "maxGuests": 10, "extraGuestFee": 500 },
+    "bothSuites":   { "offPeak": 5000, "peak": 6000, "includedGuests": 10, "maxGuests": 15, "extraGuestFee": 500 },
+    "peakRules":    { "weekends": true, "eveningStartHour": 18 }
+  },
+  "booking": {
+    "windowDays": 30,
+    "slotDurationMinutes": 45,
+    "bufferMinutes": 15,
+    "holdExpiryMinutes": 15,
+    "slots": ["11:00","12:00","13:00","14:00","15:00","16:00","17:00","18:00","19:00"],
+    "slotLabels": {
+      "11:00":"11:00 AM","12:00":"12:00 PM","13:00":"01:00 PM","14:00":"02:00 PM","15:00":"03:00 PM",
+      "16:00":"04:00 PM","17:00":"05:00 PM","18:00":"06:00 PM","19:00":"07:00 PM"
+    }
+  },
+  "suites": {
+    "concrete": {
+      "name": "Concrete Room", "short": "Concrete", "index": "SUITE 01 / 02",
+      "spec": "RAW ARCHITECTURAL CONCRETE · DIRECTIONAL KEY",
+      "capacity": "1–10 GUESTS",
+      "desc": "Board-formed concrete walls with deep tonal falloff and mid-century timber seating. Calibrated for high-contrast monochrome and moody editorial portraits."
+    },
+    "white": {
+      "name": "White Room", "short": "White", "index": "SUITE 02 / 02",
+      "spec": "GALLERY WHITE CYCLORAMA · PARABOLIC FILL",
+      "capacity": "1–10 GUESTS",
+      "desc": "Seamless matte-white expanse flooded with wrap-around parabolic strobe light. Clean, shadowless separation built for larger groups and vibrant colour portraits."
+    },
+    "both": {
+      "name": "Both Suites", "short": "Both Suites", "index": "FULL STUDIO BUYOUT",
+      "spec": "CONCRETE + WHITE · INTERCONNECTED ACCESS",
+      "capacity": "UP TO 15 GUESTS",
+      "desc": "Unrestricted access to both the Concrete and White rooms across your full 45-minute window."
+    }
+  },
+  "equipment": "IDENTICAL GODOX PARABOLIC RIGS, WIRELESS SHUTTER RELEASE, BLUETOOTH AUDIO AND CHANGING ALCOVES IN BOTH ROOMS."
+}

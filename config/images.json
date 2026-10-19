@@ -1,0 +1,14 @@
+{
+  "_comment": "PLACEHOLDER IMAGES — replace every unsplashId with a real studio photo before launch.",
+  "contactSheet": [
+    { "id": "01A", "title": "WHITE CYCLORAMA — GROUP OF 5",        "stock": "warm", "layout": "wide", "unsplashId": "1529139574466-a303027c1d8b" },
+    { "id": "02A", "title": "CONCRETE SUITE — MONOCHROME STUDY",   "stock": "bw",   "layout": "tall", "unsplashId": "1534528741775-53994a69daeb" },
+    { "id": "03A", "title": "COMPANION PORTRAIT — PETS INCLUDED",  "stock": "warm", "layout": "tall", "unsplashId": "1544005313-94ddf0286df2" },
+    { "id": "04A", "title": "UNMONITORED — CANDID DUO",            "stock": "warm", "layout": "wide", "unsplashId": "1517841905240-472988babdf9" }
+  ],
+  "suites": {
+    "concrete": { "unsplashId": "1531746020798-e6953c6e8e04" },
+    "white":    { "unsplashId": "1529139574466-a303027c1d8b" },
+    "both":     { "unsplashId": "1534528741775-53994a69daeb" }
+  }
+}

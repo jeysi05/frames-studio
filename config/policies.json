@@ -1,0 +1,7 @@
+{
+  "_comment": "SAMPLE POLICY TEXT — owner must confirm.",
+  "cancellation": { "title": "Cancellation & Rescheduling", "body": [] },
+  "arrival":      { "title": "Arrival & Late Policy", "body": [] },
+  "delivery":     { "title": "File Delivery & Usage", "body": [] },
+  "privacy":      { "title": "Privacy & Data", "body": [] }
+}
